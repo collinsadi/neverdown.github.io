@@ -1,0 +1,349 @@
+<!DOCTYPE html>
+<html>
+    <head> 
+        <title> Neverdown Clothing Brand </title>
+        <link rel="stylesheet" href="style.css">
+        <link rel="icon" type="text/png" href="favicon.png">
+        <link rel="stylesheet" href="all.css">
+        <script src="https://kit.fontawesome.com/5c6e7b4f72.js" crossorigin="anonymous"></script>
+       
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">    </head>
+    <body>
+        <div id="preloader">
+    
+        </div>
+
+<!-- Desktop Header-->
+<header class="mainhead">
+    <a href="index.html">   <div class="logo">
+        <img src="logo3.gif" alt="logo">
+    </div></a>
+    <div class="menu">
+        <a href="hoodies.html"> Hoodies </a>
+        <a href="totebags.html"> Tote-Bags </a>
+        <a href="caps.html"> Caps </a>
+        <a href="tshirt.html"> Tshirts </a>
+    </div>
+    <div class="search">
+       
+        <form>
+            <input type="search" placeholder="Search">
+        </form>
+    </div>
+   <!-- <div class="icons">
+
+    </div>
+-->
+<div id="mobile-toggle" onclick="openmobilemen()">
+<div class="hamburger"></div>
+<div class="hamburger"></div>
+<div class="hamburger"></div>
+</div>
+</header>
+
+<!-- Mobile Header -->
+
+<div id="mobile">
+    <p class="closemen" onclick="closemobilemen()">&times</p>
+    <a href="index.html">  <div class="mobile-logo">
+        <img src="logo3.gif" alt="logo">
+    </div></a>
+    <div class="mobile-menu">
+    <a href="hoodies.html"> Hoodies </a><br>
+        <a href="totebags.html"> Tote-Bags </a><br>
+        <a href="caps.html"> Caps </a><br>
+        <a href="tshirt.html"> Tshirts </a>
+    </div>
+    <br><br><br>
+    <h2> Apply for Neverdown Student and get 75% OFF on Tote-Bags and 30% OFF every other Neverdown Product
+        <a href="forstudents.html"> <span class="lm"> Learn More</span></a>
+     </h2>
+</div>
+
+
+<br><br><br><br><br><br>
+
+<div class="pagetitle">
+    <h1> Neverdown Students Application </h1>
+</div>
+
+    <div class="formcontainer">
+        <h2> <span class="required">*</span>  Marked Fields are required</h2>
+        <form action="https://formspree.io/f/mwkjpdql" method="POST">
+    <div class="rows">
+        <div class="formlabel">
+            <label for="firstname"> First Name<span class="required">*</span> </label>
+        </div>
+        <div class="formcontent">
+            <input type="text" id="firstname" name="first name" placeholder="Your First Name here...." required>
+
+        </div>
+        </div>
+<br>
+        <div class="rows">
+            <div class="formlabel">
+                <label for="lastname"> Last Name<span class="required">*</span>  </label>
+            </div>
+            <div class="formcontent">
+                <input type="text" id="lastname" name="last name" placeholder="Your Last Name here...." required>
+    
+            </div>
+            </div>
+<br>
+
+<div class="rows">
+    <div class="formlabel">
+        <label for="whatsapp"> Whatsapp Number Here <span class="required">*</span>  </label>
+    </div>
+    <div class="formcontent">
+        <input type="text" id="whatsapp" name="Whatsapp Number" placeholder="Your Whatsapp Number here...." required>
+
+    </div>
+    </div>
+
+
+
+
+
+
+
+            <br>
+
+            <div class="rows">
+                <div class="formlabel">
+                    <label for="school"> What School do you study<span class="required">*</span> </label>
+                </div>
+                <div class="formcontent">
+                    <select name="school" id="school" required>
+                    <option value="Ignatius Ajuru Unversity"> Ignatius Ajuru Univesity </option>
+                    <option value="Rsu" selected> Rivers State Unversity </option>
+                    <option value="uniport"> Univesity of Port Harcourt </option>
+                    <option value="ceam"> Captain Elechi Amadi Polytechnic </option>
+                    <option value="uniben"> University of Benin </option>
+                    <option value="unilag"> University of Lagos </option>
+                    <option value="kensaro"> Ken Sarowiwa Polythecnic </option>
+                    <option value="other"> Other  (Please Specify other opton below)</option>
+            
+                </select><br><br>
+                <textarea name="otherschool" id="other" cols="30" rows="1" placeholder="specify school not listed here"></textarea>
+                </div>
+                </div>
+
+<br>
+                <div class="rows">
+                    <div class="formlabel">
+                        <label for="file"> Upload a Valid School ID<span class="required">*</span> </label>
+                    </div>
+                    <div class="formcontent">
+                     <input type="file" name="id" id="file" required size="10mb" value="Upload ID">
+            
+                    </div>
+                    </div>
+
+
+
+<br>
+
+<div class="rows">
+    <div class="formlabel">
+        <label for="aboutus"> Whats Your Nearest Bus Stop  </label>
+    </div>
+    <div class="formcontent">
+        <input type="text" id="address" placeholder="Enter your nearest bus stop">
+      
+
+    </div>
+    </div>
+
+
+
+
+
+<br>
+
+                <div class="rows">
+                    <div class="formlabel">
+                        <label for="aboutus"> How did you Hear About Neverdown </label>
+                    </div>
+                    <div class="formcontent">
+                        <select name="aboutus" id="aboutus">
+
+                            <option value="Google">Google</option>
+                            <option value="Facebook"> Facebook </option>
+                            <option value="friend"> From a Friend </option>
+                            <option value="other"> Other </option>
+
+
+                        </select>
+            
+                    </div>
+                    </div>
+
+<br>
+
+
+<div class="rows">
+    <div class="formlabel">
+        <label for="aboutus"> Would You Recommend Neverdown to a friend  </label>
+    </div>
+    <div class="formcontent">
+        <input type="radio" id="wouldyou" value="yes"> Yes <br>
+        <input type="radio" id="wouldyou" value="no"> No <br>
+      
+
+    </div>
+    </div>
+
+
+<br>
+
+<div class="rows">
+    <div class="formlabel">
+     
+    </div>
+    <div class="formcontent">
+       <input type="submit" value="Apply">
+      
+
+    </div>
+    </div>
+
+
+
+
+
+
+
+
+
+</form>    
+</div>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<br><br><br><br>
+
+<!-- SIXTH SECTION -->
+
+<div class="footer">
+    <div class="footer-logo">
+    <img src="images/logo.gif">
+</div>
+
+
+<div class="quicklinks">
+  <h2>  Quick Links </h2>
+    <a href="#"> About </a><br>
+    <a href="#"> Contact </a><br>
+    <a href="#"> Owner </a><br>
+
+</div>
+
+
+<div class="socials">
+    <a href="https://wa.me/+2349025221520" title="Whatsapp"
+    target="_blank"> <i class="fa-brands fa-whatsapp socialicon"></i></a>
+   <a href="https://twitter.com/nonso_opinion" title="Twitter"
+   target="_blank"> <i class="fa-brands fa-twitter socialicon"></i></a>
+   <a href="mailto:nonsoeco51@gmail.com" title="Mail Us"
+   target="_blank"><i class="fa-solid fa-envelope socialicon"></i></a>
+</div>
+<br><br><br>
+<div class="builtby">
+    <p> BUILT WITH LOVE BY</p>
+   <a href="https://twitter.com/teckhardy"><img src="teckhardywhite.gif"></a> 
+</div>
+</div>
+<br>
+
+
+
+
+
+
+
+        <script src="script.js">
+
+        </script>
+        <script src="all.js"></script>
+    </body>
+</html>
+
+
+
+
+
+
