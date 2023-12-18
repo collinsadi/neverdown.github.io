@@ -1,9 +1,11 @@
 *{
     box-sizing: border-box;
     scroll-behavior:smooth ;
+
 }
 body {
     background-color: rgb(255, 255, 255);
+    overflow-x: hidden;
     
 }
 /* Header for Desktop*/
@@ -183,6 +185,11 @@ body {
     margin-left: auto;
     margin-right: auto;
     width: 50%;
+}
+
+
+.first-image img{
+    max-width: 100%;
 }
 @media screen and (max-width:800px){
     .first-image{
